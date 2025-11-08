@@ -1,0 +1,42 @@
+﻿#include "ResourceIDs.h"
+
+/* Tool menu strings */
+'STR#' ID_MENU_STRINGS "Menu strings" {
+	/* [1] */ "楼梯规范校验"
+}
+
+/* Tool menu status bar texts */
+'STR#' ID_MENU_PROMPT_STRINGS "Menu prompts" {
+	/* [1] */ "按照 JGJ 64-2017 校验楼梯是否符合规范"
+}
+
+/* Palette menu strings (Window > Palettes) */
+'STR#' ID_PALETTE_MENU_STRINGS "Palette menu strings" {
+	/* [1] */ "楼梯规范校验面板^ES^EE^EI^ED^EW^E3^EL"
+}
+
+/* Palette menu status bar texts */
+'STR#' ID_PALETTE_PROMPT_STRINGS "Palette menu prompts" {
+	/* [1] */ "显示或隐藏“楼梯规范校验”面板"
+}
+
+/* Palette definition strings */
+'STR#' ID_COMPLIANCE_STRINGS "Compliance palette strings" {
+	/* [1] */ "楼梯",
+	/* [2] */ "状态",
+	/* [3] */ "详情",
+	/* [4] */ "符合规范",
+	/* [5] */ "需人工复核",
+	/* [6] */ "不符合规范",
+	/* [7] */ "汇总",
+	/* [8] */ "规范说明"
+}
+
+/* Compliance palette dialog */
+'GDLG' ID_COMPLIANCE_PALETTE Palette | grow  0   0  440  260 "楼梯规范校验" {
+	/* [  1] */ SingleSelList  10  10  420  240  LargePlain  PartialItems 21 HasHeader 21
+}
+
+'DLGH' ID_COMPLIANCE_PALETTE DLG_COMPLIANCE_PALETTE {
+	1   ""  SingleSelList_0
+}

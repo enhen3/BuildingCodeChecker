@@ -1,0 +1,88 @@
+# Build outputs
+archicad_plugin/Build/
+archicad_plugin/RFIX/
+archicad_plugin/RFIX.WIN/
+archicad_plugin/RINT/
+*.apx
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.res
+*.exp
+*.lib
+*.idb
+*.bsc
+*.sbr
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.ncb
+*.aps
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+Debug/
+Release/
+x64/
+x86/
+*.log
+*.tlog
+*.lastbuildstate
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# Python tools
+python_rag_tool/output/*.json
+python_rag_tool/chroma_db/
+*.pyc
+
+# Environment variables
+.env
+*.env.local
+
+# Shared regulation files (可选：如果不想上传规范文件)
+# shared/current_regulation.json
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+python_output.log

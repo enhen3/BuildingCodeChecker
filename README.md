@@ -9,6 +9,8 @@
 1. **Python RAG工具** - 使用LLM从PDF规范文档中自动提取楼梯相关数值限制
 2. **ArchiCAD C++插件** - 在ArchiCAD中实时检测楼梯模型的合规性
 
+[![点击播放视频](https://img.youtube.com/vi/Kpd5oaAZumI/hqdefault.jpg)](https://www.youtube.com/watch?v=Kpd5oaAZumI)
+
 ## 核心功能
 
 ✅ **智能规范提取**
